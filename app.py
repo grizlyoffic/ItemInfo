@@ -7,7 +7,7 @@ from PIL import Image
 
 app = Flask(__name__)
 
-JSON_FILE = "ItemData.json"
+JSON_FILE = "Itemdata.json"
 
 def load_items():
     try:
